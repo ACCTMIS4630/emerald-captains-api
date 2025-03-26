@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\EmeraldCaptains.domain\EmeraldCaptains.domain.csproj" />
+    <ProjectReference Include="..\EmaraldCaptians.Data\EmaraldCaptains.Data.csproj" />
   </ItemGroup>
 
 </Project>
