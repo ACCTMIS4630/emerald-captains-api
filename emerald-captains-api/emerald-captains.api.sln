@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "emerald.captains.Api", "eme
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "emerald.captains.Domain", "emerald.captains.Domain\emerald.captains.Domain.csproj", "{3C29FF58-D6CE-48E9-9BDE-0D1E371FD93C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "emerald.captains.Data", "emerald.captains.Data\emerald.captains.Data.csproj", "{8DB1A649-B865-4BB1-BFB1-31593BB636BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{3C29FF58-D6CE-48E9-9BDE-0D1E371FD93C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C29FF58-D6CE-48E9-9BDE-0D1E371FD93C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C29FF58-D6CE-48E9-9BDE-0D1E371FD93C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DB1A649-B865-4BB1-BFB1-31593BB636BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DB1A649-B865-4BB1-BFB1-31593BB636BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DB1A649-B865-4BB1-BFB1-31593BB636BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DB1A649-B865-4BB1-BFB1-31593BB636BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
