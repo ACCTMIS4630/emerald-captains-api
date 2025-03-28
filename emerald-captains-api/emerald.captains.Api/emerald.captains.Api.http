@@ -1,0 +1,6 @@
+@emerald.captains.Api_HostAddress = http://localhost:5253
+
+GET {{emerald.captains.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
