@@ -7,9 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "emerald.captains.Api", "eme
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "emerald.captains.Domain", "emerald.captains.Domain\emerald.captains.Domain.csproj", "{3C29FF58-D6CE-48E9-9BDE-0D1E371FD93C}"
 EndProject
+<<<<<<< HEAD
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0AB3BF05-4346-4AA6-1389-037BE0695223}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "emerald-captains-api.domain.tests", "tests\emerald-captains-api.domain.tests\emerald-captains-api.domain.tests.csproj", "{74B3F7DA-09BF-412B-92C0-6B469F2FD480}"
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "emerald.captains.Data", "emerald.captains.Data\emerald.captains.Data.csproj", "{8DB1A649-B865-4BB1-BFB1-31593BB636BF}"
+>>>>>>> ef-core
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +45,7 @@ Global
 		{3C29FF58-D6CE-48E9-9BDE-0D1E371FD93C}.Debug|x86.Build.0 = Debug|Any CPU
 		{3C29FF58-D6CE-48E9-9BDE-0D1E371FD93C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C29FF58-D6CE-48E9-9BDE-0D1E371FD93C}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
 		{3C29FF58-D6CE-48E9-9BDE-0D1E371FD93C}.Release|x64.ActiveCfg = Release|Any CPU
 		{3C29FF58-D6CE-48E9-9BDE-0D1E371FD93C}.Release|x64.Build.0 = Release|Any CPU
 		{3C29FF58-D6CE-48E9-9BDE-0D1E371FD93C}.Release|x86.ActiveCfg = Release|Any CPU
@@ -63,5 +68,11 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{74B3F7DA-09BF-412B-92C0-6B469F2FD480} = {0AB3BF05-4346-4AA6-1389-037BE0695223}
+=======
+		{8DB1A649-B865-4BB1-BFB1-31593BB636BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DB1A649-B865-4BB1-BFB1-31593BB636BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DB1A649-B865-4BB1-BFB1-31593BB636BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DB1A649-B865-4BB1-BFB1-31593BB636BF}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> ef-core
 	EndGlobalSection
 EndGlobal
