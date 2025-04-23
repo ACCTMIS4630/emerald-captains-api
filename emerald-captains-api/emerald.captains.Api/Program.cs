@@ -10,6 +10,22 @@ builder.Services.AddControllers();
 builder.Services.AddDbContext<StoreContext>(options => options.UseSqlite("Data Source=../Registrar.sqlite",
 b => b.MigrationsAssembly("emerald.captains.Api"))
 );
-
+builder.Services.AddCores(options =>
+{
+    options.AddDefaultPolicy(builder =>
+    {
+        builder.WithOrigins("http://localhost:3000")
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+    });
+});
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+if(app.Environment.IsDevelopment()){
+    app.UsageSwagger();
+    app.UseSwaggerUI();
+}
+app.UseHttpsRedirection();
+app.UseCors();
+app.UseAuthorization();
