@@ -72,6 +72,7 @@ namespace emerald.captains.Api.Controllers
         */
 
         [HttpDelete("{id:int}")]
+        [Authorize("delete:catalog")]
         public IActionResult Delete(int id){
             //return Ok("Deleted!");
             return NoContent();
